@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	text-decoration: none;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+.wsname {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  display: inline-block;
+  color: #0b5a57;
+  padding: 3%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.brain {
+  color: #0A2A9C8A;
+}
+
+.topleft {
+  display: inline-block;
+  width: 40%;
+}
+
+.topright {
+  width: 59%;
+  vertical-align: top;
+margin-top: 15px;
+  display: inline-block;
+  text-align: right;
+}
+
+.sign {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+	color: black;
+  padding: 5px;
+}
+
+.navitems {
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.nbitems {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: gray;
+  padding: 2%;
+  border-bottom: 5px solid white;
+  transition: 500ms;
+}
+
+.icons {
+  width: 17px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.nbitems:hover {
+  border-bottom: 5px solid black;
+}
+
+.profdiv {
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: linear-gradient(to right, #0b5a57, #68c2e8
+);  
+background-color: #0A2A9C8A;
+  height: auto;
+}
+
+.innerdiv {
+  width: 90%;
+  height: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: linear-gradient(
+    to right,
+    #0b5a57 0%,
+    #0A2A9C8A 25%,
+    white 25%,
+    white 100%
+  );
+  -webkit-box-shadow: 0 0 25px 0.5px #202020;
+  box-shadow: 0 0 25px 0.5px #202020;
+}
+
+.underpic {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.profimg {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nbitems2holder {
+  width: 250px;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nbitems2 {
+  width: 41.2%;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: transparent;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-bottom: 3px solid white;
+  transition: 500ms;
+}
+
+.nbitems2:hover {
+  border-bottom: 3px solid #25a38f;
+  color: #25a38f;
+}
+
+.textdiv {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.profname {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.profsub {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.notification {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #25a38f;
+  color: white;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #25a38f;
+  transition: 500ms;
+  margin-left: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.notification:hover {
+  background: white;
+  border: 2px solid #25a38f;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  padding: 2px 7px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+@media only screen and (max-width: 750px) {
+  .wsname {
+    font-size: 30px;
+  }
+
+  .sign {
+    font-size: 14px;
+  }
+
+  .notification {
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #25a38f;
+    transition: 500ms;
+    margin-left: 20px;
+    vertical-align: middle;
+  }
+
+  .notification .badge {
+    font-size: 14px;
+  }
+
+  .navitems {
+    margin-top: 15px;
+  }
+
+  .profdiv {
+    text-align: center;
+  }
+
+  .innerdiv {
+    background: linear-gradient(
+      to bottom,
+      #0b5a57 0%,
+      #0b5a57 50%,
+      white 50%,
+      white 100%
+    );
+  }
+
+  .underpic {
+    width: 100%;
+    display: block;
+  }
+
+  .textdiv {
+    margin-top: 25px;
+    display: block;
+    vertical-align: top;
+  }
+
+}
